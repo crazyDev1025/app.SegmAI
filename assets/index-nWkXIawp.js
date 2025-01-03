@@ -5882,7 +5882,7 @@ const bQ = { id: "app", class: "flex relative min-h-screen" },
     [
       ut(
         "a",
-        { href: "#", class: "flex text-xl items-center cursor-pointer" },
+        { href: "https://segm-ai.vercel.app/", class: "flex text-xl items-center cursor-pointer" },
         [ut("img", { class: "w-44 mx-5 md:mx-10", src: VJ })]
       ),
     ],
@@ -15526,6 +15526,7 @@ x$.create = function (e, r) {
 var D$ = {},
   lS = {};
 (function (t) {
+
   function e(r) {
     if ((typeof r == "number" && (r = r.toString()), typeof r != "string"))
       throw new Error("Color should be defined as hex string");
